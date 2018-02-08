@@ -92,7 +92,7 @@ UINavigationControllerDelegate, GMSMapViewDelegate {
                 lng = lng/count
                 let avgCoordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
                 DispatchQueue.main.async {
-                    let camera = GMSCameraPosition.camera(withTarget: avgCoordinate, zoom: 8.0)
+                    let camera = GMSCameraPosition.camera(withTarget: avgCoordinate, zoom: 5.0)
                     self.mapView.animate(to: camera)
                 }
             }

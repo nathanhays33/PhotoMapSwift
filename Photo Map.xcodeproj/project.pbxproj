@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		431186EE2026CACE009E25EA /* LargePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431186EC2026CACE009E25EA /* LargePhotoViewController.swift */; };
 		431186F12028F2FA009E25EA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431186F02028F2FA009E25EA /* Helper.swift */; };
+		431186F3202CC891009E25EA /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431186F2202CC891009E25EA /* CitiesTableViewController.swift */; };
+		431186F5202CC91A009E25EA /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431186F4202CC91A009E25EA /* CityTableViewCell.swift */; };
 		4379986E2023A67D0073128F /* MarkerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379986D2023A67D0073128F /* MarkerUIView.swift */; };
 		437998702023A8540073128F /* MarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4379986F2023A8540073128F /* MarkerView.xib */; };
 		438D910F1FF8A112009443F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D910E1FF8A112009443F9 /* AppDelegate.swift */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		431186EC2026CACE009E25EA /* LargePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargePhotoViewController.swift; sourceTree = "<group>"; };
 		431186F02028F2FA009E25EA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		431186F2202CC891009E25EA /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		431186F4202CC91A009E25EA /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		4379986D2023A67D0073128F /* MarkerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerUIView.swift; sourceTree = "<group>"; };
 		4379986F2023A8540073128F /* MarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerView.xib; sourceTree = "<group>"; };
 		438D910B1FF8A112009443F9 /* Photo Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +90,8 @@
 				4379986F2023A8540073128F /* MarkerView.xib */,
 				431186EC2026CACE009E25EA /* LargePhotoViewController.swift */,
 				431186F02028F2FA009E25EA /* Helper.swift */,
+				431186F2202CC891009E25EA /* CitiesTableViewController.swift */,
+				431186F4202CC91A009E25EA /* CityTableViewCell.swift */,
 			);
 			path = "Photo Map";
 			sourceTree = "<group>";
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4379986E2023A67D0073128F /* MarkerUIView.swift in Sources */,
+				431186F5202CC91A009E25EA /* CityTableViewCell.swift in Sources */,
 				431186EE2026CACE009E25EA /* LargePhotoViewController.swift in Sources */,
+				431186F3202CC891009E25EA /* CitiesTableViewController.swift in Sources */,
 				431186F12028F2FA009E25EA /* Helper.swift in Sources */,
 				438D91111FF8A112009443F9 /* ViewController.swift in Sources */,
 				438D910F1FF8A112009443F9 /* AppDelegate.swift in Sources */,
